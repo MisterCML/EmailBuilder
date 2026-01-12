@@ -1,0 +1,148 @@
+.text-element {
+  min-height: 20px;
+  outline: none;
+  word-wrap: break-word;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 14px;
+  color: #000;
+  font-weight: normal;
+  line-height: inherit;
+  text-align: left;
+}
+
+.text-element-readonly {
+  cursor: default;
+}
+
+.text-element-editable {
+  /* Quill 编辑器容器样式 */
+}
+
+.text-element-editable .ql-container {
+  border: none;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 14px;
+  color: #000;
+}
+
+.text-element-editable .ql-editor {
+  padding: 0;
+  min-height: auto;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 14px;
+  color: #000;
+  font-weight: normal;
+  line-height: inherit;
+  text-align: left;
+}
+
+.text-element-editable .ql-editor.ql-blank::before {
+  color: #a19f9d;
+  font-style: normal;
+}
+
+.text-element p {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 14px;
+  color: #000;
+  font-weight: normal;
+  line-height: inherit;
+  text-align: left;
+}
+
+.text-element:focus {
+  outline: 2px solid #0078d4;
+  outline-offset: 2px;
+}
+
+.text-element h1 {
+  color: #000;
+  font-size: 34px;
+  font-weight: normal;
+  font-family: Verdana, Arial, sans-serif;
+  line-height: inherit;
+  text-align: left;
+  margin: 0px;
+}
+
+.text-element h2 {
+  color: #333;
+  font-size: 24px;
+  font-weight: normal;
+  font-family: sans-serif;
+  line-height: inherit;
+  text-align: left;
+  margin: 0px;
+}
+
+.text-element h3 {
+  color: #000;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: Verdana, Arial, sans-serif;
+  line-height: inherit;
+  text-align: left;
+  margin: 0px;
+}
+
+.text-element li {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 14px;
+  color: #000;
+  line-height: inherit;
+  font-weight: normal;
+  text-align: left;
+}
+
+/* Quill 编辑器内部元素的样式 */
+.text-element-editable .ql-editor h1 {
+  color: #000;
+  font-size: 34px;
+  font-weight: normal;
+  font-family: Verdana, Arial, sans-serif;
+  line-height: inherit;
+  text-align: left;
+  margin: 0px;
+}
+
+.text-element-editable .ql-editor h2 {
+  color: #333;
+  font-size: 24px;
+  font-weight: normal;
+  font-family: sans-serif;
+  line-height: inherit;
+  text-align: left;
+  margin: 0px;
+}
+
+.text-element-editable .ql-editor h3 {
+  color: #000;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: Verdana, Arial, sans-serif;
+  line-height: inherit;
+  text-align: left;
+  margin: 0px;
+}
+
+.text-element-editable .ql-editor p {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 14px;
+  color: #000;
+  font-weight: normal;
+  line-height: inherit;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.text-element-editable .ql-editor li {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 14px;
+  color: #000;
+  line-height: inherit;
+  font-weight: normal;
+  text-align: left;
+}

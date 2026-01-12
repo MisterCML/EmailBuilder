@@ -1,0 +1,28 @@
+.rich-text-toolbar-container {
+  background: #ffffff;
+  border-bottom: 1px solid #e1dfdd;
+  padding: 8px 16px;
+  z-index: 100;
+  position: relative;
+}
+
+.rich-text-toolbar-container .ql-toolbar {
+  border: none;
+  border-bottom: 1px solid #e1dfdd;
+  padding: 8px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.rich-text-toolbar-container .ql-toolbar .ql-formats {
+  margin-right: 0;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.rich-text-toolbar-container .ql-toolbar button,
+.rich-text-toolbar-container .ql-toolbar select {
+  margin: 0;
+}
